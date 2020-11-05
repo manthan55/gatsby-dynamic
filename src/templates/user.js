@@ -36,6 +36,7 @@ export default ({ pageContext: { userId } }) => {
       {/* <p>Hello user page {userId}</p> */}
       {userInfo !== undefined && (
         <div>
+          <p>USER DETIALS</p>
           <p>User ID: {userInfo.id}</p>
           <p>Name: {userInfo.name}</p>
           <p>Username: {userInfo.username}</p>
